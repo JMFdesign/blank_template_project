@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Jessica (JMF) Arnieri Hernandez Blank Template</title>
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?> " />
 </head>
 
 <body>
