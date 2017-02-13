@@ -19,8 +19,15 @@
 
     <section class="row">
       <div class="twelve columns">
-        <h2>Section Content - woohoo</h2>
-        <p>So much content will go here.</p>
+        <!-- Begin Loop -->
+        <?php
+          if ( have_posts() ) {
+            while ( have_posts() ) {
+              the_post();
+            }
+          }
+        ?>
+        <!-- End Loop -->
       </div>
     </section>
 
