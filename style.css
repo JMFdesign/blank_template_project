@@ -1,4 +1,3 @@
-
 /*
 Theme Name: Jessica Arnieri Hernandez Blank Theme
 Theme URI:
@@ -8,6 +7,9 @@ Version: 0.1
 License: Open
 Text Domain: jessica_arnieri_hernandez_blank_template
 */
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
 
 *{
 	color: #000000;
