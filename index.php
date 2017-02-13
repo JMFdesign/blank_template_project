@@ -8,20 +8,29 @@
 </head>
 
 <body>
-  <header>
-    <h1>Blank Wordpress Template</h1>
-    <p>This is my WordPress template.</p>
-  </header>
 
-  <section>
-    <h2>Section Content - woohoo</h2>
-    <p>So much content will go here.</p>
-  </section>
+  <div class="container">
+    <header>
+      <div class="twelve columns">
+        <h1>Blank Wordpress Template</h1>
+        <p>This is my WordPress template.</p>
+      </div>
+    </header>
 
-  <footer>
-    <h2>Footer Content - yessireebob</h2>
-    <p>So much content will go here.</p>
-  </footer>
+    <section class="row">
+      <div class="twelve columns">
+        <h2>Section Content - woohoo</h2>
+        <p>So much content will go here.</p>
+      </div>
+    </section>
+
+    <footer class="row">
+      <div class="twelve columns">
+        <h2>Footer Content - yessireebob</h2>
+        <p>So much content will go here.</p>
+      </div>
+    </footer>
+  </div>
 
 </body>
 
