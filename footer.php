@@ -1,9 +1,19 @@
+      <hr />
+
       <footer class="row">
-        <div class="twelve columns">
-          <hr />
-          <h3>Footer Content - yessireebob</h3>
-          <p>So much content will go here.</p>
+
+        <div class="four columns">
+          <?php dynamic_sidebar('first-footer-widget'); ?>
         </div>
+
+        <div class="four columns">
+          <?php dynamic_sidebar('second-footer-widget'); ?>
+        </div>
+
+        <div class="four columns">
+          <?php dynamic_sidebar('third-footer-widget'); ?>
+        </div>
+
       </footer>
     </div><!-- End Container Div-->
     <?php wp_footer(); ?>
