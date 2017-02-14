@@ -18,7 +18,6 @@
     else : ?>
       <h1>Nothing Found</h1>
       <p>Sorry, we could not find any posts that match your search criteria.  Please try again with different search terms.</p>
-    <?php endif; ?>
   </div>
 
   <div class="four columns">
