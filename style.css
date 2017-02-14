@@ -16,3 +16,34 @@ Text Domain: jessica_arnieri_hernandez_blank_template
 	font-size: 14px;
 	line-height: 16px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3.0rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #2f7737;
+  font-weight: 600;
+  text-decoration: underline;
+}
