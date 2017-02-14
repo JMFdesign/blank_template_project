@@ -47,3 +47,30 @@ a {
   font-weight: 600;
   text-decoration: underline;
 }
+
+/*--- Menu --- */
+
+.blank-menu-header {
+	text-align: center;
+	margin: 10px 0px;
+  background-color: lightgrey;
+}
+.blank-menu-header ul {
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	list-style-image: none;
+}
+.blank-menu-header li {
+	display: inline;
+}
+.blank-menu-header ul li a {
+	text-decoration:none;
+	margin: 4px;
+	padding: 10px 20px;
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+.blank-menu-header ul li a:hover {
+	color: #cd41e0;
+}

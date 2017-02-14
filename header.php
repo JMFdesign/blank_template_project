@@ -15,6 +15,16 @@
         <div class="twelve columns">
           <h1><?php bloginfo('name'); ?></h1>
           <h2><?php bloginfo('description'); ?></h2>
-          <hr />
         </div>
       </header>
+
+      <div class="row">
+        <div class="twelve columns">
+          <?php
+            wp_nav_menu( array(
+              'sort_column'     => 'menu order',
+              'container_class' => 'blank-menu-header'
+            ));
+          ?>
+        </div>
+      </div>
